@@ -62,12 +62,12 @@ font-family:'Poppins', sans-serif ;
 }
 section{
     text-align: center;
-    padding: 0px 8px;
+    padding: 1rem 1rem;
 }
 
 .pink{
     background-color: var(--light-gray-color);
-    padding:0.8rem;
+    
     
 }
 
