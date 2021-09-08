@@ -105,6 +105,7 @@ text-align: right;
 }
 .project-description{
    padding-left:0.5rem;
+   padding-bottom:0.5rem
 }
 .project-unordered-list{
     list-style:none;
