@@ -74,6 +74,9 @@ section h1{
     text-align: center;
     color: rgb(48, 52, 58);
 }
+.project-unordered-list{
+    list-style: none;
+}
 .link-primary{
     background-color: #be185d;
     border-radius: 0.5rem;
@@ -111,7 +114,7 @@ section h1{
 .footer-heading{
    padding:25px 0px 0px 0px;
     text-align: center;
-    color: white;
+    color: var(--lighter-color);
     font-weight: bold;
 }
 .list-footer{
@@ -119,6 +122,12 @@ section h1{
     cursor: pointer;
 }
 .non-bullet-list i{
-    color: white;
+    color: var(--lighter-color);
     padding-right: 15px;
+}
+.rel{
+
+}
+.content-center{
+
 }
