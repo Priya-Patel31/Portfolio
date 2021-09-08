@@ -4,6 +4,9 @@
     --dark-color:#6B7280;
     --light-color:#ffe6f2;
     --light-gray-color:#f7dce5;
+    --lighter-color:white;
+    --hot-pink:#ff4c96;
+    --dark-color:#1a0000;
 }
 body{
     width:100%;
@@ -15,7 +18,7 @@ body{
     height: 90px;
     border-bottom-left-radius: 1rem;
     background-color:  var(--primary-color);
-    color:white;
+    color:var(--lighter-color);
     padding:10px 12px;
   
 }
@@ -40,17 +43,85 @@ text-align: right;
 } 
  .link-active{
     font-weight: bold;
+    border:0.1rem solid var(--lighter-color);
+    border-radius:0.5rem;
+    padding :0.5rem 0.5rem;
+}
+.content-center{
+    
+    position:absolute; 
+    top: 0rem;
+    left: 10rem;
+}
+.alignment{
+    text-align: center;
+}
+.img-height{
+    height:12rem;
+}
+.rel{
+    position:relative;
+    
+    text-align: center;
+    color: var(--primary-color);
+    text-shadow: 2px 2px 4px var(--hot-pink);
+    /* color: white; */
 }
 .link{
 
-color: white;
+color: var(--lighter-color);
 text-decoration: none;
 cursor: pointer;
 font-family:'Poppins', sans-serif ;
 }
+.browse{
+    margin-left:1rem;
+    margin-bottom:1rem;
+    padding:0.5rem 0.5rem;
+    border-radius:0.5rem;
+    font-size:1rem;
+    font-weight: 700;
+}
+.btn-pink{
+    background-color:var(--primary-color);
+    color:white;
+    border:0.1rem solid var(--primary-color);
+}
+.btn-white{
+    background-color:var(--lighter-color);
+    border:0.1rem solid var(--primary-color);
+    color:var(--primary-color)
+}
+.project-date{
+    font-weight:650;
+    font-size:1rem;
+}
+.project-list-item{
+    border-radius:1rem;
+    margin-bottom: 1rem;
+    
+}
+.project-description{
+   padding-left:0.5rem;
+}
+
+.item-bg-white{
+    border:0.2rem solid var(--primary-color);
+}
+.project-unordered-list{
+    list-style:none;
+    padding-right:1rem;
+    padding-inline-start:1em;
+    
+}
+.item-bg-pink{
+    background-color:var(--light-gray-color);
+    border:0.1rem solid var(--light-gray-color);
+
+}
 .image-hero{
     width: 100%;
-    max-width:600px;
+     max-width:600px; 
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -67,15 +138,13 @@ section{
 
 .pink{
     background-color: var(--light-gray-color);
-    
 }
+
+
 
 section h1{
     text-align: center;
     color: rgb(48, 52, 58);
-}
-.project-unordered-list{
-    list-style: none;
 }
 .link-primary{
     background-color: #be185d;
@@ -122,12 +191,6 @@ section h1{
     cursor: pointer;
 }
 .non-bullet-list i{
-    color: var(--lighter-color);
+    color: white;
     padding-right: 15px;
-}
-.rel{
-
-}
-.content-center{
-
 }
