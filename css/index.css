@@ -41,7 +41,7 @@ nav{
 .non-bullet-list{
 list-style: none;
 display: inline;
-padding: 0.5rem 0.5rem;
+padding: 0.5rem 0.3rem;
 text-align: right;
 }
 .heading a{
