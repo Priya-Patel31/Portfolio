@@ -17,14 +17,20 @@ body{
 .alignment{
     text-align: center;
 }
-.content-center{
+.common{
+    margin-left:1rem;
+    margin-bottom:2rem;
+    margin-top:2rem;
+   
+}
+/* .content-center{
     
     position:absolute; 
     top: 0rem;
     left: 10rem;
-}
+} */
 .navigation{
-    height: 90px;
+    /* height: 90px; */
     border-bottom-left-radius: 1rem;
     background-color:  var(--primary-color);
     color:var(--lighter-color);
@@ -34,6 +40,7 @@ body{
 nav{
     display: block;
 }
+
  
 .nav-brand{
     font-weight: bold;
@@ -41,7 +48,7 @@ nav{
 .non-bullet-list{
 list-style: none;
 display: inline;
-padding: 0.5rem 0.3rem;
+padding: 0.5rem 0.5rem;
 text-align: right;
 }
 .heading a{
@@ -50,6 +57,7 @@ text-align: right;
 }
  .list{
     text-align: right;
+    
 } 
  .link-active{
     font-weight: bold;
@@ -64,11 +72,16 @@ text-align: right;
     cursor: pointer;
     font-family:'Poppins', sans-serif ;
     }
+.link-primary{
+        background-color: var(--primary-color);
+}
+.link-secondary{
+        color:var(--primary-color) ; 
+}
 
 
 .rel{
-    position:relative;
-    
+    /* position:relative; */
     text-align: center;
     color: var(--primary-color);
     text-shadow: 2px 2px 4px var(--hot-pink);
@@ -76,14 +89,12 @@ text-align: right;
 }
 
 .browse{
-    margin-left:1rem;
-    margin-bottom:2rem;
-    margin-top:2rem;
     padding:0.5rem 0.5rem;
     border-radius:0.5rem;
     font-size:1rem;
     font-weight: 700;
-    text-decoration: none;
+   margin-bottom: 0.2rem;;
+    
 }
 .project-note{
     margin-bottom: 1rem;
@@ -92,6 +103,7 @@ text-align: right;
     background-color:var(--primary-color);
     color:white;
     border:0.1rem solid var(--primary-color);
+    text-decoration: none;
 }
 .btn-white{
     background-color:var(--lighter-color);
@@ -154,33 +166,8 @@ section h1{
     text-align: center;
     color: rgb(48, 52, 58);
 }
-.link-primary{
-    background-color: #be185d;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height:40px;
-    width: 150px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.link-secondary{
-    border: 1px solid #be185d;
-    color:#be185d ;
-    height:40px;
-    width: 150px;
-    border-radius: 0.5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-   
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
 .footer{
     background-color: #be185d;
     height:150px;
